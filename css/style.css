@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.header {
+    border: 1px solid;
+}
+.container {
+    max-width: 1218px;
+    width: 100%;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    gap: 20px;
+}
+.menu li a {
+    text-transform: capitalize;
+}
