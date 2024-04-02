@@ -1,8 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
 }
 
 button {
@@ -21,19 +29,44 @@ ol {
 .header {
     border: 1px solid;
 }
+
 .container {
-    max-width: 1218px;
+    max-width: 1236px;
     width: 100%;
     margin: 0 auto;
+    padding-inline: 10px;
 }
+
 .nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
+
 .menu {
     display: flex;
     gap: 20px;
 }
+
 .menu li a {
     text-transform: capitalize;
+    line-height: 18px;
+    letter-spacing: -4%;
+}
+
+.logo {
+    display: flex;
+    gap: 8px;
+}
+
+.logo h1 {
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -4%;
+    padding-block: 16px;
+}
+
+.cart {
+    padding-block: 13px;
 }
